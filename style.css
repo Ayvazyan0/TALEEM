@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body{
+    height: 1500px;
+}
+
+/* Header start */
+.logo-menu{
+    width: 90%;
+    justify-content: space-between;
+    display: flex;
+    margin: auto;
+    position: fixed;
+}
+
+.logo{
+    width: 20%;
+    font-size: 120%;
+    padding: 1%;
+    color: white;
+}
+
+.menu{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.menu ul{
+    display: flex;
+    width: 100%;
+}
+
+.menu ul li{
+    width: 100%;
+    padding: 3%;
+}
+
+.menu ul li a{
+    color: white;
+}
+
+.menu ul li a:hover{
+    border-top: solid 1px brown;
+}
+
+
+.icons{
+    display: flex;
+    padding: 3%;
+    font-size: 110%;
+    color: white;
+}
+
+.bg{
+    background-image: url(image/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-size: cover;
+    height: 800px;
+}
+
+.bg h1{
+    text-align: center;
+    font-size: 500%;
+    padding-top: 30%;
+    color: white;
+}
+
+.bg p{
+    text-align: center;
+    color: brown;
+}
+/* Header end */
+
+
+.menu-icon{
+    color: black;
+    background-color: brown;
+    font-size: larger;
+    justify-content: center;
+    padding-left: 50%;
+    width: 50%;
+    justify-content: space-around;
+}
+
+/* content start */
+.text{
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+
+.content{
+    width: 90%;
+    height: 30%;
+    justify-content: space-around;
+    display: flex;
+    margin: auto;
+}
+
+.teacher{
+    border: solid 1px;
+    width: 32%;
+    height: 50%;
+    text-align: center;
+}
+
+.courses{
+    border: solid 1px;
+    width: 32%;
+    height: 50%;
+    text-align: center;
+}
+
+.other{
+    border: solid 1px;
+    width: 32%;
+    height: 50%;
+    text-align: center;
+}
+/* contetnt end */
+
+/* media start */
+@media screen and (max-width: 780px){
+    .menu ul{
+        display: none;
+    }
+
+    .icons{
+        display: none;
+    }
+    .head-menu-icon{
+        font-size: 150%;
+        color: white;
+        margin-top: 3%;
+        margin-left: 99%;
+    }
+
+    .content{
+        display: block;
+        width: 90%;
+    }
+
+    .teacher{
+        width: 100%;
+    }
+
+    .courses{
+        width: 100%;
+    }
+
+    .other{
+        width: 100%;
+    }
+}
